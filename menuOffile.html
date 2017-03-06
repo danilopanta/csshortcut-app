@@ -1,0 +1,308 @@
+          <div class="headerMenusBottom" id="menuFull">
+            <nav>
+              <ul>
+                <li class="liMenuOptions liMenuOptionsSelected" tabindex="1">
+                  <div class="liMenuOptionsTitle">
+                    <a href="#" aria-expanded="false" aria-controls="menu-suaviagem" tabindex="-1">
+                      <xsl:value-of select="/skysales/culture/label[@id='yourTrip']/@text"/>
+                    </a>
+                  </div>
+                  <div class="divMenuItens" id="menu-suaviagem">
+                    <ul class="headerMenusBottomOptions">
+                      <li>
+                        <xsl:copy-of select="/skysales/culture/a[@id='linkBuyYourTicket']"/>
+                      </li>
+                      <li>
+                        <xsl:copy-of select="/skysales/culture/a[@id='linkCancelReserv']"/>
+                      </li>
+                      <li>
+                        <xsl:copy-of select="/skysales/culture/a[@id='linkDoYouCheckin']"/>
+                      </li>
+                      <!--<xsl:if test="/skysales/CONTROLS/CULTURECODE = 'pt-BR'">
+                        <li>
+                          <xsl:copy-of select="/skysales/culture/a[@id='linkdestinyGuide']"/>
+                        </li>
+                      </xsl:if>-->
+                      <!--<li>
+                        <xsl:copy-of select="/skysales/culture/a[@id='linkFlightStatus']"/>
+                      </li>-->
+                      <li>
+                        <xsl:copy-of select="/skysales/culture/a[@id='linkOfers']"/>
+                      </li>
+                      
+                    </ul>
+                  </div>
+                </li>
+                <li  class="liMenuOptions liMenuOptionsInformacoes" tabindex="-1">
+                  <div class="liMenuOptionsTitle">
+                    <a href="#" aria-expanded="false" aria-controls="menu-informacoes"  tabindex="-1">
+                      <xsl:value-of select="/skysales/culture/label[@id='titleInformation']/@text"/>
+                    </a>
+                  </div>
+                  <div class="divMenuItens" id="menu-informacoes">
+                    <ul class="headerMenusBottomOptions">
+                      <li>
+                        <xsl:copy-of select="/skysales/culture/a[@id='linkFlightTable']"/>
+
+                      </li>
+                      <li>
+                        <xsl:copy-of select="/skysales/culture/a[@id='linkRoteMap']"/>
+                      </li>
+                      <li>
+                        <xsl:copy-of select="/skysales/culture/a[@id='linkFlyghtChange']"/>
+                      </li>
+                      <li>
+                        <xsl:copy-of select="/skysales/culture/a[@id='linkRate']"/>
+                      </li>
+                      <li>
+                        <xsl:copy-of select="/skysales/culture/a[@id='linkPaymentFormsNewFooter']"/>
+                      </li>
+                      <li>
+                        <xsl:copy-of select="/skysales/culture/a[@id='linkInformation']"/>
+                      </li>
+                      <li>
+                        <xsl:copy-of select="/skysales/culture/a[@id='linkGlossary']"/>
+                      </li>
+                    </ul>
+                    <ul class="headerMenusBottomOptions headerMenusBottomOptionsLarger headerMenusBottomOptionsBorderLeftRight headerLineHeight">
+                      <li class="headerMenusBottomOptionsliTitle">
+                        <xsl:value-of select="/skysales/culture/label[@id='linkTavelNoDoubts']/@text"/>
+                      </li>
+                      <li>
+                        <xsl:copy-of select="/skysales/culture/a[@id='linkHowDoCheckin']"/>
+                      </li>
+                      <li>
+                        <xsl:copy-of select="/skysales/culture/a[@id='linkUnderstandYourCard']"/>
+                      </li>
+                      <li>
+                        <xsl:copy-of select="/skysales/culture/a[@id='linkDocuments']"/>
+                      </li>
+                      <li>
+                        <xsl:copy-of select="/skysales/culture/a[@id='linkVaccines']"/>
+                      </li>
+                      <li>
+                        <xsl:copy-of select="/skysales/culture/a[@id='linkConections']"/>
+                      </li>
+                      <li>
+                        <xsl:copy-of select="/skysales/culture/a[@id='linkDispatchedBaggage']"/>
+                      </li>
+                      <li>
+                        <xsl:copy-of select="/skysales/culture/a[@id='linkInYourBaggage']"/>
+                      </li>
+                      <li>
+                        <xsl:copy-of select="/skysales/culture/a[@id='linkUnaccompaniedMinor']"/>
+                      </li>
+                      <li>
+                        <xsl:copy-of select="/skysales/culture/a[@id='linkPets']"/>
+                      </li>
+                      <li>
+                        <xsl:copy-of select="/skysales/culture/a[@id='linkTavelWithPartners']"/>
+                      </li>
+                      <li>
+                        <xsl:copy-of select="/skysales/culture/a[@id='linkTravelMillesSmiles']"/>
+                      </li>
+                      <li>
+                        <xsl:copy-of select="/skysales/culture/a[@id='linkHealthTips']"/>
+                      </li>
+                    </ul>
+                    <ul class="headerMenusBottomOptions headerMenusBottomOptionsLarger headerLineHeight">
+                      <li class="headerMenusBottomOptionsliTitle">
+                          <xsl:value-of select="/skysales/culture/label[@id='linkSpecialAssistence']/@text"/>
+                      </li>
+                      <li>
+                        <xsl:copy-of select="/skysales/culture/a[@id='linksPDA']"/>
+                      </li>
+                      <li>
+                        <xsl:copy-of select="/skysales/culture/a[@id='linkPDV']"/>
+                      </li>
+                      <li>
+                        <xsl:copy-of select="/skysales/culture/a[@id='linkPDIM']"/>
+                      </li>
+                      <li>
+                        <xsl:copy-of select="/skysales/culture/a[@id='linkPDFM']"/>
+                      </li>
+                      <li>
+                        <xsl:copy-of select="/skysales/culture/a[@id='linkPMR']"/>
+                      </li>
+                      <li>
+                        <xsl:copy-of select="/skysales/culture/a[@id='linkPO']"/>
+                      </li>
+                      <li>
+                        <xsl:copy-of select="/skysales/culture/a[@id='LinkPersonWithHealthProblem']"/>
+                      </li>
+                      <li>
+                        <xsl:copy-of select="/skysales/culture/a[@id='linkPregnantWomen']"/>
+                      </li>
+                      <li>
+                        <xsl:copy-of select="/skysales/culture/a[@id='linkBaby']"/>
+                      </li>
+                      <li>
+                        <xsl:copy-of select="/skysales/culture/a[@id='linkPeoplePlusSixty']"/>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="liMenuOptions liMenuOptionsServicos" tabindex="1">
+                  <div class="liMenuOptionsTitle">
+                    <a href="#" aria-expanded="false" aria-controls="menu-servicos" tabindex="-1">
+                      <xsl:value-of select="/skysales/culture/label[@id='services']/@text"/>
+                    </a>
+                  </div>
+                  <div class="divMenuItens" id="menu-servicos">
+                    <ul class="headerMenusBottomOptions headerMenusBottomOptionsBorderRight">
+                      <li>
+                        <xsl:copy-of select="/skysales/culture/a[@id='linkGolConfort']"/>
+                      </li>
+                      <li>
+                        <xsl:copy-of select="/skysales/culture/a[@id='linkBoardService']"/>
+                      </li>
+                      <li>
+                        <xsl:copy-of select="/skysales/culture/a[@id='linkPremiumClass']"/>
+                      </li>
+                      <li>
+                        <xsl:copy-of select="/skysales/culture/a[@id='linkAnticipation']"/>
+                      </li>
+                      <li>
+                        <xsl:copy-of select="/skysales/culture/a[@id='linkVipGol']"/>
+                      </li>
+                      <li>
+                        <xsl:copy-of select="/skysales/culture/a[@id='linkTranportBetweenAirports']"/>
+                      </li>
+                      <li>
+                        <xsl:copy-of select="/skysales/culture/a[@id='linkGolMagazine']"/>
+                      </li>
+                        <xsl:if test="/skysales/CONTROLS/CULTURECODE = 'pt-BR'">
+                          <li>
+                            <xsl:copy-of select="/skysales/culture/a[@id='linkSafeTravel']"/>
+                          </li>
+                        </xsl:if>
+                        <li>
+                        <xsl:copy-of select="/skysales/culture/a[@id='linkCheckinTwitter']"/>
+                      </li>
+                      <xsl:if test="/skysales/CONTROLS/CULTURECODE = 'pt-BR'">
+                        <li>
+                          <xsl:copy-of select="/skysales/culture/a[@id='linkCarRent']"/>
+                        </li>
+
+                        <li>
+                          <xsl:copy-of select="/skysales/culture/a[@id='linkHoterReserv']"/>
+                        </li>
+                      </xsl:if>
+                    </ul>
+                    <ul class="headerMenusBottomOptions">
+                      <li>
+                        <xsl:copy-of select="/skysales/culture/a[@id='linkWithMe']"/>
+                      </li>
+                      <li>
+                        <xsl:copy-of select="/skysales/culture/a[@id='linkBaggageExpress']"/>
+                      </li>
+                      <li>
+                        <xsl:copy-of select="/skysales/culture/a[@id='linkTraffic']"/>
+                      </li>
+                      <li>
+                        <xsl:copy-of select="/skysales/culture/a[@id='linkFlightCalling']"/>
+                      </li>
+                      <li>
+                        <xsl:copy-of select="/skysales/culture/a[@id='linkExtraSeat']"/>
+                      </li>
+                      <li>
+                        <xsl:copy-of select="/skysales/culture/a[@id='linkPet']"/>
+                      </li>
+                      <li>
+                        <xsl:copy-of select="/skysales/culture/a[@id='linkExcessBaggage']"/>
+                      </li>
+                      <li>
+                        <xsl:copy-of select="/skysales/culture/a[@id='linkVoeJunto']"/>
+                      </li>                      
+                    </ul>
+                  </div>
+                </li>
+                <li class="liMenuOptions liMenuOptionsGol" tabindex="1">
+                  <div class="liMenuOptionsTitle">
+                    <a href="#" aria-expanded="false" aria-controls="menu-agol" tabindex="-1">
+                      <xsl:value-of select="/skysales/culture/label[@id='theGol']/@text"/>
+                    </a>
+                  </div>
+                  <div class="divMenuItens" id="menu-agol">
+                    <ul class="headerMenusBottomOptions">
+                      <li>
+                        <xsl:copy-of select="/skysales/culture/a[@id='linkAboutGol']"/>
+                      </li>
+                      <li>
+                        <xsl:copy-of select="/skysales/culture/a[@id='linkHistory']"/>
+                      </li>
+                      <xsl:if test="/skysales/CONTROLS/CULTURECODE = 'pt-BR'">
+                        <li>
+                          <xsl:copy-of select="/skysales/culture/a[@id='linkGolBlog']"/>
+                        </li>
+                      </xsl:if>
+                      <li>
+                        <xsl:copy-of select="/skysales/culture/a[@id='linkSponsorships']"/>
+                      </li>
+                      <li>
+                        <xsl:copy-of select="/skysales/culture/a[@id='linkWorkOnGol']"/>
+                      </li>
+                      <li>
+                        <xsl:copy-of select="/skysales/culture/a[@id='linkPress']"/>
+                      </li>
+                      <li>
+                        <xsl:copy-of select="/skysales/culture/a[@id='linkInvestors']"/>
+                      </li>
+                      <xsl:if test="/skysales/CONTROLS/CULTURECODE = 'pt-BR'">
+                        <li tabindex="14">
+                          <xsl:copy-of select="/skysales/culture/a[@id='advertiseOnGol']"/>
+                        </li>
+                      </xsl:if>                      
+                    </ul>
+                  </div>
+                </li>
+                <li class="liMenuOptions liMenuOptionsAtendimento" tabindex="1">
+                  <div class="liMenuOptionsTitle">
+                    <a href="#" aria-expanded="false" aria-controls="menu-atendimento" tabindex="-1">
+                      <xsl:value-of select="/skysales/culture/label[@id='attendance']/@text"/>
+                    </a>  
+                  </div>
+                  <div class="divMenuItens" id="menu-atendimento">
+                    <ul class="headerMenusBottomOptions">
+                      <li class="liFalecomGal">
+                        <xsl:copy-of select="/skysales/culture/a[@id='linkfaleComGalImagem']"/>
+                      </li>
+                    </ul>
+                    <ul class="headerMenusBottomOptions">
+                      <li>
+                        <xsl:copy-of select="/skysales/culture/a[@id='linkCallWithGal']"/>
+                      </li>
+                      <li>
+                        <xsl:copy-of select="/skysales/culture/a[@id='linkCommonQuestions']"/>
+                      </li>
+                      <li>
+                        <xsl:copy-of select="/skysales/culture/a[@id='linkSendMessage']"/>
+                      </li>
+                      <li>
+                        <xsl:copy-of select="/skysales/culture/a[@id='linkLuggageTracker']"/>
+                      </li>
+                      <li>
+                        <xsl:copy-of select="/skysales/culture/a[@id='linkPhones']"/>
+                      </li>
+                      <li>
+                        <xsl:copy-of select="/skysales/culture/a[@id='linkGolStore']"/>
+                      </li>
+                      <xsl:if test="/skysales/CONTROLS/CULTURECODE = 'pt-BR'">
+                        <li>
+                          <xsl:copy-of select="/skysales/culture/a[@id='linkProtocolService']"/>
+                        </li>
+                      </xsl:if>
+                      <xsl:if test="/skysales/CONTROLS/CULTURECODE = 'en-US'">
+                        <li>
+                          <xsl:copy-of select="/skysales/culture/a[@id='linkCostumerServicePlan']"/>
+                        </li>
+                        <li>
+                          <xsl:copy-of select="/skysales/culture/a[@id='linkDOT']"/>
+                        </li>
+                      </xsl:if>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </nav>
+          </div>
