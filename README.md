@@ -1,5 +1,4 @@
-<<<<<<< HEAD
- CSShortcut APP
+CSShortcut APP
 
  Projeto descolado
  <3
@@ -12,7 +11,6 @@
 
 ##Folder Structure
 
-.
 ├── README.md
 ├── LICENSE.md
 ├── CONTRIBUTING.md
@@ -38,7 +36,6 @@
 ├── projects.json
 ├── .editorconfig
 └── .gitignore
-
 
 # Open Source Boilerplate
 
@@ -75,5 +72,5 @@ Find on our [roadmap](https://github.com/danilopanta/csshortcut-app/) the next s
 <br>
 Want to contribute? [Follow these recommendations](https://github.com/danilopanta/csshortcut-app/blob/master/CONTRIBUTING.md).
 
->>>>>>> 7da3d028a67b9390a5635061fe75aa986e0d13b6
+
  
